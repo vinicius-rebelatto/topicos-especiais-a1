@@ -57,8 +57,8 @@ def analisar_preco_por_bairro(caminho_arquivo):
     plt.tight_layout()
 
     # Salvar o gráfico em um arquivo
-    plt.savefig('02_price_distribution_by_neighborhood.png')
-    print("Gráfico '02_price_distribution_by_neighborhood.png' salvo com sucesso!")
+    plt.savefig('02_distribution_by_neighborhood.png')
+    print("Gráfico '02_distribution_by_neighborhood.png' salvo com sucesso!")
 
 
 if __name__ == '__main__':
